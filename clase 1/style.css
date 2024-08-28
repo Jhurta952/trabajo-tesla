@@ -17,6 +17,7 @@ body{
 section{
     display: grid;
     place-items: center;
+    padding: 10rem;
 }
 
 .logo{
@@ -44,6 +45,13 @@ nav ul{
     gap: 2rem;
 }
 
+a:hover{
+    color: rgb(242, 255, 0);
+}
+
+.uno:hover{
+    color: rgba(0, 0, 0, 0.808);
+}
 
 .material-symbols-outlined {
   font-variation-settings:
